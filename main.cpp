@@ -41,7 +41,7 @@ int is_blend(string s, string first, string last, unordered_set<string>& diction
     ++word_count;
     while (s.length() > first.length())
     {
-        int i = s.length() - 1;
+        size_t i = s.length() - 1;
         while (i >= 0)
         {
             string suffix = s.substr(i, s.length());

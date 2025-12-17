@@ -39,7 +39,7 @@ public:
 	// 
 	// Must run in O(1) time. 
 	string blend(string first_word, string last_word, int word_count);
-
+	//~WordBlender();
 private:
 	string** table;
 	int max_word_count;
